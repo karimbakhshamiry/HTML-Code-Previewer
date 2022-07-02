@@ -32,6 +32,8 @@ body {
 
 .nav__item:hover {
     background-color: white;
+    cursor:pointer;
+    border-radius: .5rem .5rem 0 0;
 }
 section {
     display: none;
@@ -43,7 +45,7 @@ section {
 
 .selected {
     background-color: beige;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     border-bottom: 0;
 }
 
