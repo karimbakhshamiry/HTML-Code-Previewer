@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Previewer</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav">
+                <span class="nav__item selected" data-section="home">Home</span>
+                <span class="nav__item" data-section="HTML">HTML Code</span>
+                <span class="nav__item" data-section="preview">Preview</span>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="home visible">
+            <div class="container home__container">
+                <p>This is a simple HTML previewer. I call is simple because it IS simple.</p>
+                <ol>
+                    <li>Click on <code>HTML Code</code> tab, and write HTML code in the given text area</li>
+                    <li>Then, click on <code>Preview</code> tab to see the result</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="HTML" class="HTML">
+            <div class="container HTML__container">
+                <textarea id="HTML_code" class="HTML_code" name="HTML_code" id="" cols="30" rows="10" placeholder="Type your HTML code here..."></textarea>
+            </div>
+        </section>
+
+        <section id="preview" class="preview">
+            <div class="container preview__container">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda enim molestiae perferendis aut quod labore unde, sit ea, nostrum totam culpa. Libero, ut? Facilis in incidunt dolores neque voluptatem rem animi officiis tempora aut non ducimus consequatur rerum eum dolorum dolor quibusdam excepturi, assumenda cumque explicabo corrupti ullam, recusandae aspernatur?</p>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

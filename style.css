@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 250ms;
+}
+
+body {
+    background-color: beige;
+}
+
+.container {
+    padding: 1em 2em;
+}
+
+.header {
+    /* outline: 1px solid black; */
+}
+
+.header__container {
+    background-color: bisque;
+    padding: 1em 1em 0 1em;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__item {
+    padding: 1em 2em;
+}
+
+.nav__item:hover {
+    background-color: white;
+}
+section {
+    display: none;
+}
+
+.visible {
+    display: unset;
+}
+
+.selected {
+    background-color: beige;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.HTML_code {
+    width: 100%;
+    resize: none;
+    padding: 1em;
+}
+
+code {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 0 .5em;
+}
+
+li {
+    padding: .5em;
+}
